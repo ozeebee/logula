@@ -1,6 +1,6 @@
 package com.codahale.logula.tests
 
-import com.codahale.simplespec.Spec
+import com.simple.simplespec.Spec
 import com.codahale.logula.Formatter
 import org.apache.log4j.{Level, Logger}
 import org.apache.log4j.spi.LoggingEvent

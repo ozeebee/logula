@@ -10,7 +10,7 @@ object Log {
   /**
    * Returns a log for a given class.
    */
-  def forClass[A](implicit mf: Manifest[A]) = forName(mf.erasure.getCanonicalName)
+  def forClass[A](implicit ct: reflect.ClassTag[A]) = forName(ct.runtimeClass.getCanonicalName)
 
   /**
    * Returns a log for a given class.

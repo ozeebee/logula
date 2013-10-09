@@ -1,6 +1,6 @@
 package com.codahale.logula.tests
 
-import com.codahale.simplespec.Spec
+import com.simple.simplespec.Spec
 import com.codahale.logula.{Log, Logging}
 import org.junit.Test
 

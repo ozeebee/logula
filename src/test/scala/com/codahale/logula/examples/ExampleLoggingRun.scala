@@ -11,7 +11,7 @@ class ThingDoer extends Logging {
     log.warn("This may get ugly.")
 
     try {
-      error("oh noes!")
+      sys.error("oh noes!")
     } catch {
       case e: Exception => log.error(e, "The thing has gone horribly wrong.")
     }

@@ -2,7 +2,7 @@ package com.codahale.logula.tests
 
 import com.codahale.logula.Log
 import org.apache.log4j.{Logger, Level}
-import com.codahale.simplespec.Spec
+import com.simple.simplespec.Spec
 import org.junit.Test
 
 class LogExample(log: Log) {
